@@ -1,0 +1,40 @@
+html body{
+    height: 100%;
+    width: 100%;
+    /* background: red; */
+    background-image: url("bg_8.jpg");
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #first{
+    height: 250px;
+    width: 650px;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: url("76YS.gif");
+  background-color: rgb(162, 130, 130);
+  margin: 120px 450px;
+  /* padding: auto; */
+}
+
+#text{
+  /* text-align: center; */
+  margin: 0px 60px;
+  padding: 60px 0px;
+  font-size: 40px;
+  color: rgb(255, 89, 0);
+}
+
+span{
+  /* background-color: blueviolet; */
+  color: white;
+}
+
+button{
+  margin: 20px 50px;
+  font-size: 35px;
+  background-color: rgb(255, 89, 0);
+  color: white;
+}

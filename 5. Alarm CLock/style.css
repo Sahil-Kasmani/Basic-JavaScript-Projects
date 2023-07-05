@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    width: 100%;
+    /* background: red; */
+  }
+  
+#app,h1{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+  font-size: 50px;    
+}
+
+#current{
+  font-size: 32px;
+}
+
+.inputs{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+input{
+  text-align: center;
+  margin: 15px 5px;
+  /* padding: 15px 155px; */
+  height: 20px;
+  width: 125px;
+}
+
+#btn{
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+}
+
+#btn.dis{
+  pointer-events: none;
+}
+
+#btn:hover{
+  background-color: rgb(142, 30, 202);
+}
+
+.inputs.disable{
+  opacity: 0.6;
+  pointer-events: none;
+}
